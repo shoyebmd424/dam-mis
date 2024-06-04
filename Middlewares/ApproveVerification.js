@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const { User } = require("../Controller/AuthController");
+const User = require("../Modal/Users");
 const approveVerification = async (req, res, next) => {
   try {
     const decoded = jwt.verify(
