@@ -278,4 +278,5 @@ module.exports = {
   updatePassword,
   disableUser,
   deleteUser,
+  User,
 };
