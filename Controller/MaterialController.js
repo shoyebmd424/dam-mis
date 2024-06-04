@@ -1,4 +1,4 @@
-const Material = require("../Model/Material");
+const Material = require("../Modal/Material");
 
 exports.createMaterial = async (req, res) => {
   try {

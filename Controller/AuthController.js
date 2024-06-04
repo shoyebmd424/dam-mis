@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const { sendEmail } = require("../Middlewares/EmailHandle");
-const User = require("../Model/user");
-const Workshop = require("../Model/Workshop");
+const User = require("../Modal/user");
+const Workshop = require("../Modal/Workshop");
 
 const register = async (req, res) => {
   try {

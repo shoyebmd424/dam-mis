@@ -1,7 +1,7 @@
-const Parts = require("../Model/Parts");
-const Repair = require("../Model/Repairing");
-const Workshop = require("../Model/Workshop");
-const User = require("../Model/user");
+const Parts = require("../Modal/Parts");
+const Repair = require("../Modal/Repairing");
+const Workshop = require("../Modal/Workshop");
+const User = require("../Modal/user");
 
 exports.CreateRepairRequest = async (req, res) => {
   try {

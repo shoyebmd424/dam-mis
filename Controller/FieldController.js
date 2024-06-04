@@ -1,4 +1,4 @@
-const Field = require("../Model/Field");
+const Field = require("../Modal/Field");
 
 exports.createField = async (req, res) => {
   try {

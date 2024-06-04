@@ -1,4 +1,4 @@
-const Workshop = require("../Model/Workshop");
+const Workshop = require("../Modal/Workshop");
 
 exports.Createworkshop = async (req, res) => {
   try {

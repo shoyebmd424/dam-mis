@@ -1,4 +1,4 @@
-const Transportation = require("../Model/Transportation");
+const Transportation = require("../Modal/Transportation");
 
 exports.Createtransport = async (req, res) => {
   try {

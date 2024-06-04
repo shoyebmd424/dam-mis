@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const User = require("../Model/user");
+const User = require("../Modal/user");
 
 exports.Driver = async (req, res, next) => {
   try {

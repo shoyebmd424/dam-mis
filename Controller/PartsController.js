@@ -1,5 +1,5 @@
-const Parts = require("../Model/Parts");
-const Workshop = require("../Model/Workshop");
+const Parts = require("../Modal/Parts");
+const Workshop = require("../Modal/Workshop");
 
 exports.Createparts = async (req, res) => {
   try {
